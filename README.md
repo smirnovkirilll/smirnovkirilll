@@ -10,7 +10,8 @@ Remote-first. My location is a Type 2 dimension — history preserved, current r
 - Deputy head of engineering for an analytical DWH — grew the team from zero to about a dozen
 - The warehouse: ~1000 data objects, ~1 PB, ingest from external perimeters, reactive pipelines, layered architecture
 - I set the engineering standards — code review, on-call, incident policy, sprints — and still ship pipelines myself. Mostly so nobody can tell me the standards are unrealistic
-- Before that: five years at a ride-hailing bigtech, engineer → team lead
+- An approach I prototyped for data-quality monitoring became the standard in our in-house data platform — roughly ten warehouses, a couple hundred engineers
+- Before that: five years at a ride-hailing bigtech — a ~5 PB warehouse, led its largest engineering group, engineer → team lead
 
 ## Strong opinions
 
