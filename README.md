@@ -10,6 +10,7 @@ Remote-first. My location is a Type 2 dimension — history preserved, current r
 - Deputy head of engineering for an analytical DWH — grew the team from zero to about a dozen
 - The warehouse: ~1000 data objects, ~1 PB, ingest from external perimeters, reactive pipelines, layered architecture
 - I set the engineering standards — code review, on-call, incident policy, sprints — and still ship pipelines myself. Mostly so nobody can tell me the standards are unrealistic
+- I also run a small group I built myself — three engineers doing the work the business-facing teams structurally can't: infrastructure, tech research, the central AI tooling, and the data nobody wants to own. We called it Macrodata Refinement, because of course we did
 - Before that: five years at a ride-hailing bigtech — a ~5 PB warehouse, led its largest engineering group, engineer → team lead
 - There I prototyped an approach to data-quality monitoring that became the standard in our in-house data platform — roughly ten warehouses, a couple hundred engineers still work that way
 
@@ -23,7 +24,7 @@ Remote-first. My location is a Type 2 dimension — history preserved, current r
 
 ## Stack
 
-Python and SQL day to day, YQL when the data lives on YTsaurus. Greenplum and ClickHouse for analytics, Kafka and Airflow to move things around, Terraform so the infrastructure is a file rather than a memory. Claude Code, plus a pile of agent skills I wrote myself — and ChatGPT, which gets the questions I'd be embarrassed to ask a colleague.
+Python and SQL day to day, YQL when the data lives on YTsaurus. Greenplum, PostgreSQL and DuckDB — one dialect family, three very different reasons; ClickHouse for analytics. Kafka and Airflow to move things around, Terraform so the infrastructure is a file rather than a memory. Claude Code, plus a pile of agent skills I wrote myself — and ChatGPT, which gets the questions I'd be embarrassed to ask a colleague.
 
 ## Weekend builds
 
